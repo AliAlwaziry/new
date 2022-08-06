@@ -1,0 +1,598 @@
+::-webkit-scrollbar {
+    width: 23px;
+}
+::-webkit-scrollbar-track {
+    background: #D6E2EC;
+    border-radius: 7px;
+}
+::-webkit-scrollbar-thumb {
+    background: #B7CDDC;
+    border-radius: 7px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(99, 115, 160); 
+}
+header{
+    background-image: url("TPW/Union\ 1.svg");
+    width: 100%;
+    height: 900.89px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    object-fit: cover;
+}
+body{
+    margin: 0;
+}
+.logo{
+    margin-left: 182px;
+}
+nav{
+    display: inline;
+}
+a{
+    text-decoration: none;
+    color: unset;
+}
+nav div{
+    display: inline;
+    vertical-align: 30px;
+    font-size: 22px;
+    color: white;
+    margin: 0 32px;
+    /* font-family: "alfont_com_AlFont_com_shahd-bold"; */
+}
+.home{
+    border: #F4AF16 solid 3px;
+    border-radius: 22px;
+    padding: 0px 10px 0px 10px;
+}
+.nav{
+    margin-left: 182px;
+}
+.header-div{
+    position: relative;
+}
+.header-text{
+    font-size: 42px;
+    color: white;
+    margin-left: 225px;
+    margin-top: 70px;
+}
+.Explore-Now{
+    margin-left: 225px;
+    margin-top: 110px;
+    height: 73px;
+    width: 226px;
+    background-color: white;
+    color: #006CA8;
+    border: none;
+    font-size: 32px;
+    border-radius: 11px;
+    cursor: pointer;
+}
+.header-img-div{
+    float: right;
+    position: relative;
+
+}
+.header-img{
+    margin-top: 78px;
+    margin-right: 202px;
+    height: 608px;
+    width: 604.31px;
+    
+}
+
+.header-text-div{
+    float: left;
+}
+.social-media{
+    height: 254px;
+    width: 254px;
+    background-color: #497A95;
+    border-radius: 100%;
+    position: absolute;
+    left: 401px;
+    bottom: -12px;
+}
+.social-media-text{
+    text-align: center;
+    font-size: 32px;
+    color: white;
+    margin-top: 81px;
+    margin-bottom: -14px;
+}
+.social-media-logos{
+    display: inline-block;
+    margin: 33px 34px;
+}
+.social-media-logo{
+    margin: 0 18px;
+}
+.dot-div{
+    text-align: center;
+    position: absolute;
+    left: 45%;
+    margin-left: -9px;
+    bottom: -718px;
+}
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.dot-main{
+    background-color: #F5AF19;
+    border: solid #ffffff 1.5px;
+}
+.welcome-div{
+    margin-left: 537px;
+    text-align: center;
+    width: fit-content;
+    margin-top: 102px;
+}
+.dash-welcome{
+    width: 48px;
+    height: 8px;
+    margin: 10px 0;
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #006CA8;;
+}
+.welcome-text{
+    font-size: 49px;
+    color: #006CA8;
+    display: inline;
+    margin: 0;
+}
+.pharma-defination{
+    font-size: 28px;
+    color: #707070;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 54px;
+}
+.defination-logos{
+    width: 100%;
+    height: 453px;
+    background-color: #497A95;
+}
+.defination-logo-agent{
+    margin: 93px 249.6px 85.5px 278px;
+    width: 127.36px;
+    height: 274.5px;
+    display: inline-block;
+}
+.defination-logo-agent-number{
+    font-size: 64px;
+    color: #F5AF19;
+    margin: 9.1px 6.4px 5px 31px;
+    display: inline-block;
+}
+.defination-logo-agent-text{
+    font-size: 32px;
+    color: #ffffff;
+    margin: 0px 20.4px 0px 30px;
+    display: inline-block;
+}
+.defination-logo-employee{
+    margin: 91px 250px 85.5px 0px;
+    width: 136px;
+    height: 276.5px;
+    display: inline-block;
+}
+.defination-logo-employee-number{
+    font-size: 64px;
+    color: #F5AF19;
+    margin: 7.5px 4px 5px 34px;
+    display: inline-block;
+}
+.defination-logo-employee-text{
+    font-size: 32px;
+    color: #ffffff;
+    margin: 0px 16px 0px 35px;
+    display: inline-block;
+}
+.defination-logo-branch{
+    margin: 87px 249.7px 85.5px 0px;
+    width: 143.3px;
+    height: 280.48px;
+    display: inline-block;
+}
+.defination-logo-branch-number{
+    font-size: 64px;
+    color: #F5AF19;
+    margin: 3.3px 30.3px 5px 47.1px;
+    display: inline-block;
+}
+.defination-logo-branch-text{
+    font-size: 32px;
+    color: #ffffff;
+    margin: 0px 47.2px 3px 53.1px;
+    display: inline-block;
+}
+.defination-logo-customer{
+    margin: 88px 266.4px 88.5px 0px;
+    width: 219.62px;
+    height: 276.5px;
+    display: inline-block;
+}
+.defination-logo-customer-number{
+    font-size: 64px;
+    color: #F5AF19;
+    margin: 7.5px 23.8px 5px 64.8px;
+    display: inline-block;
+}
+.defination-logo-customer-text{
+    font-size: 32px;
+    color: #ffffff;
+    margin: 0px 70.8px 0px 82.8px;
+    display: inline-block;
+}
+.about-us{
+    width: 1648px;
+    height: 750px;
+    margin: 116px 136px 90.5px;
+}
+.about-us-img-div{
+    width: 658px;
+    height: 750px;
+    margin-right: 40px;
+    position: relative;
+    float: left;
+    clear: both;
+}
+.about-us-img-bg1{
+    position: absolute;
+    width: 619.08px;
+    height: 623.61px;
+    margin: 18px 15.8px 108.4px 23.1px;
+}
+.about-us-img-bg2{
+    position: absolute;
+    width: 644.31px;
+    height: 618.21px;
+    margin: 21.5px 3.7px 110.2px 10px;
+}
+.about-us-img-dr{
+    position: absolute;
+    width: 658px;
+    height: 615px;
+    margin: 34.3px 0px 100.7px;
+}
+.about-us-img-pb{
+    position: absolute;
+    width: 116px;
+    height: 116px;
+    margin: 272.3px 298px 361.7px 244px;
+}
+.dash-about-us{
+    display: inline-block;
+    width: 22px;
+    height: 3px;
+    border-radius: 4px;
+    background-color: #006CA8;
+    margin: 6px 0px;
+}
+.about-us-title-text{
+    display: inline-block;
+    font-size: 24px;
+    color: #006CA8;
+}
+.who-we-are{
+    font-size: 35px;
+    color: #003E60;
+    margin-bottom: 18px;
+}
+.who-we-are-text{
+    height: 525px;
+    font-size: 26px;
+    color: #707070;
+    margin-bottom: 128px;
+    overflow: auto;
+}
+.who-we-are-text::-webkit-scrollbar{
+    width: 15px;
+}
+hr{
+    opacity: 0.16;
+    margin: 0;
+}
+.about-company{
+    text-align: center;
+    margin-top: 112.5px;
+}
+.dash-about-company{
+    width: 41px;
+    height: 7px;
+    background-color: #006CA8;
+    border-radius: 4px;
+    display: inline-block;
+    margin: 4px 0px;
+}
+.about-company-text{
+    font-size: 32px;
+    color: #006CA8;
+    display: inline-block;
+}
+.our-team{
+    font-size: 42px;
+    color: #003E60;
+    text-align: center;
+    margin-top: 12px;
+}
+.team-member{
+    margin: 41px 285px 152.5px 286px;
+}
+.member{
+    display: inline-block;
+    margin-right: 85px;
+}
+.member-name{
+    margin-top: 2px;
+    font-size: 22px;
+    color: #003E60;
+    text-align: center;
+}
+.our-strategy-text-div{
+    display: inline-block;
+    margin-left: 140px;
+    margin-top: 125.5px;
+}
+.dash-our-strategy{
+    width: 25px;
+    height: 4px;
+    margin: 10px 0px;
+    background-color: #006CA8;
+    display: inline-block;
+}
+.our-strategy-title-text{
+    font-size: 40px;
+    color: #006CA8;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.our-strategy-text{
+    height: 525px;
+    width: 866px;
+    font-size: 26px;
+    color: #707070;
+    margin-bottom: 61px;
+    padding-right: 67px;
+    overflow: auto;
+}
+.our-strategy-text::-webkit-scrollbar{
+    width: 17px;
+}
+.our-strategy-img-div{
+    display: inline-block;
+    background-image: url(TPW/bg-usman-yousaf-SakqLf78KVo-unsplash.png);
+    width: 656px;
+    height: 656px;
+    margin-left: 33px;
+    margin-top: 125.5px;
+    margin-bottom: 237.5px;
+}
+.our-strategy-img-dr{
+    margin: 17px 14px 13px;
+}
+.our-partners-title{
+    text-align: center;
+}
+.dash-our-partners{
+    width: 25px;
+    height: 4px;
+    margin: 10px 0px;
+    background-color: #006CA8;
+    display: inline-block;
+}
+.our-partners-title-text{
+    font-size: 40px;
+    color: #006CA8;
+    display: inline-block;
+    text-align: center;
+    margin-top: 110.5px;
+}
+.our-partners-text{
+    font-size: 28px;
+    color: #707070;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 54px;
+}
+.our-partners-img-div{
+    margin: 15px 100px 67.5px 101px;
+}
+.our-partners-img{
+    display: inline-block;
+    margin-right: 81px;
+}
+.timeline-title{
+    text-align: center;
+}
+.dash-timeline{
+    width: 25px;
+    height: 4px;
+    margin: 10px 0px;
+    background-color: #006CA8;
+    display: inline-block;
+}
+.timeline-title-text{
+    font-size: 40px;
+    color: #006CA8;
+    display: inline-block;
+    text-align: center;
+    margin-top: 110.5px;
+}
+.timeline-text{
+    font-size: 28px;
+    color: #707070;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 54px;
+}
+.timeline-line{
+    width: 1532px;
+    height: 4px;
+    background-color: #006CA8;
+    margin: 68px 206px 117px 182px;
+    position: absolute;
+}
+.timeline-dot1{
+    width: 29px;
+    height: 29px;
+    background-color: #006CA8;
+    border-radius: 100%;
+    position: relative;
+    bottom: 30.5px;
+    margin-right: 342px;
+    display: inline-block;
+}
+.timeline-dot2{
+    width: 29px;
+    height: 29px;
+    background-color: #006CA8;
+    border-radius: 100%;
+    position: relative;
+    bottom: 30.5px;
+    margin-right: 342px;
+    display: inline-block;
+}
+.timeline-dot3{
+    width: 29px;
+    height: 29px;
+    background-color: #006CA8;
+    border-radius: 100%;
+    position: relative;
+    bottom: 30.5px;
+    margin-right: 342px;
+    display: inline-block;
+}
+.timeline-dot4{
+    width: 29px;
+    height: 29px;
+    background-color: #006CA8;
+    border-radius: 100%;
+    position: relative;
+    bottom: 30.5px;
+    margin-right: 342px;
+    display: inline-block;
+}
+.timeline-dot5{
+    width: 29px;
+    height: 29px;
+    background-color: #006CA8;
+    border-radius: 100%;
+    position: relative;
+    bottom: 14.5px;
+    display: inline-block;
+    margin: 0px 0px 0px 3px;
+}
+.timeline-dot-text-div-bottom{
+    position: relative;
+    width: 140px;
+    height: 54px;
+    top: 26px;
+    right: 15px;
+}
+.timeline-dot-text-div-top{
+    position: relative;
+    width: 182px;
+    height: 54px;
+    bottom: 50px;
+    right: 15px;
+}
+.timeline-dot-date{
+    font-size: 25px;
+    color: #006CA8;
+}
+.timeline-dot-text{
+    font-size: 16px;
+    color: #707070;
+}
+.timeline-line-div{
+    width: 1627px;
+    height: 177px;
+    margin-bottom: 117px;
+}
+.footer{
+    background-image: url(TPW/footer\ bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer-logo{
+    width: 531px;
+    height: 388px;
+    display: inline-block;
+    margin: 35px 55px 95px 127px;
+}
+.footer-links{
+    display: inline-block;
+    margin-top: 70px;
+    vertical-align: top;
+}
+.link-word{
+    font-size: 43px;
+    color: #F5AF19;
+    text-align: center;
+    margin-bottom: 29px;
+}
+.links-div1{
+    font-size: 22px;
+    text-align: left;
+    display: inline-block;
+    color: #ffffff;
+    margin-right: 173px;
+    line-height: 2.4;
+}
+.links-div2{
+    font-size: 22px;
+    text-align: left;
+    display: inline-block;
+    color: #ffffff;
+    line-height: 2.4;
+}
+.contact-us{
+    display: inline-block;
+    margin-top: 197px;
+    vertical-align: top;
+}
+.contact-us-text{
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+}
+.contact-us-logos{
+    margin: 23px 252.5px 31.2px 276.5px;
+}
+.contact-us-logo{
+    margin-right: 14px;
+}
+.contact-us-number{
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+}
+.footer-dashline{
+    width: 1562.5px;
+    height: 1px;
+    background-color: #ffffff;
+    margin-left: 179.7px;
+}
+.footer-copyright{
+    margin-top: 28.5px;
+}
+.copyright-text{
+    font-size: 22px;
+    color: #ffffff;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin: 9px 66px 28.8px 731.7px;
+}
