@@ -1,0 +1,116 @@
+nav{
+    display: inline-block;
+}
+/* form{
+    position: absolute;
+    top: 80px;
+    left: 270px;
+    width: 1000px;
+} */
+.form{
+  width: 50%;
+  padding: 35px 0;
+  box-shadow: 1px 1px 10px 1px #707070;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.input-div{
+    margin-left: 40.86px;
+}
+.input-box{
+    background: #F0F0E9;
+    border: medium none;
+    color: #000;
+    display: block;
+    font-size: 14px;
+    font-weight: 300;
+    height: 35px;
+    margin-bottom: 10px;
+    outline: medium none;
+    padding-left: 10px;
+    width: 85%;
+}
+.text-box{
+    background: #F0F0E9;
+    border: medium none;
+    color: #000;
+    display: block;
+    font-size: 14px;
+    font-weight: 300;
+    height: 100px;
+    margin-bottom: 10px;
+    outline: medium none;
+    padding-left: 10px;
+    width: 85%;
+}
+.submit-btn{
+    height: 35px;
+    width: 105px;
+    margin-left: 40.86px;
+    border: transparent;
+    box-shadow: 4px 3px 5px -4px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.error{
+    color: red;
+    margin-left: 40.86px;
+}
+.form-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.rem-lab{
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-family: sans-serif;
+    display: inline-block;
+}
+.checkbox{
+    display: inline-block;
+}
+.table{
+    display: inline-block;
+    width: 80%;
+}
+table{
+    width: 100%;
+    text-align: center;
+}
+table,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+h1{
+    text-align: center;
+}
+.submit-margin{
+    margin-bottom: 10px;
+}
+.remove-margin{
+    margin-top: 10px;
+}
+input[type="file"]{
+    display: none;
+}
+.file-upload{
+    height: 20px;
+    width: 133px;
+    background-color: buttonface;
+    border: transparent;
+    box-shadow: 4px 3px 5px -4px;
+    border-radius: 5px;
+    font-size: 13px;
+    padding: 10px;
+}
